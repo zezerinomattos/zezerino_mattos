@@ -1,0 +1,72 @@
+/*
+
+font-family: 'Blinker', sans-serif;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Recursive', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+CORES
+
+Azul escuro = #13182B
+Branco = #FFFF
+Azul quem sou = #00082C
+*/
+
+
+*{
+    font-size: 16px;
+}
+
+h1, h2 {
+    font-size: 350%;
+}
+
+
+/*--------------------------*/
+/*  ELEMENTOS DO HEADER     */
+/*--------------------------*/
+
+/* nav superior redes sociais */
+nav#header-principal-nav-contato ul#nav-contato-esquerda li{
+    list-style: none;
+    margin-left: 2%;
+    margin-top: .5rem;
+}
+
+nav#header-principal-nav-contato ul#nav-contato-esquerda li a{
+    text-decoration: none;
+}
+
+nav#header-principal-nav-contato ul#nav-contato-esquerda li a ion-icon{
+    font-size: 180%;
+    color: #FFFF
+    ;
+}
+
+/* nav superior contato */
+nav#header-principal-nav-contato ul#nav-contato-direita li{
+    list-style: none;
+    margin-left: 3%;
+}
+
+nav#header-principal-nav-contato ul#nav-contato-direita li ion-icon{
+    font-size: 200%;
+    color: #FFFF;
+}
+
+nav#header-principal-nav-contato ul#nav-contato-direita li p{
+    font-size: 90%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFF;
+}
+
+nav#header-principal-nav-contato ul#nav-contato-direita li h3{
+    font-size: 200%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #FFFF;
+    margin-left: 1rem;
+}

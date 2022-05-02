@@ -2,8 +2,8 @@
 CORES
 
 Azul escuro = #13182B
-
-
+Branco = #FFFF
+Azul quem sou = #00082C   #09102B
 
 */
 
@@ -17,6 +17,14 @@ body{
     background-color: #13182B;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*--------------------------*/
+/*  ELEMENTOS DO HEADER     */
+/*--------------------------*/
+
 header#header-principal{
     width: 100%;
     height: 800px;
@@ -28,9 +36,38 @@ header#header-principal{
 
 nav#header-principal-nav-contato{
     width: 100%;
-    height: 2.5rem;
+    height: 3rem;
+    box-shadow: inset 0px 35px 35px #0000008a;
 
-    box-shadow: inset 0px 30px 30px #0000008a
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/* nav superior redes sociais */
+nav#header-principal-nav-contato ul#nav-contato-esquerda{
+    width: 30%;
+    height: 100%;
+    margin-left: 3rem;
+    align-items: center;
+    
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* nav superior contato */
+nav#header-principal-nav-contato ul#nav-contato-direita{
+    width: 60%;
+    height: 100%;
+    margin-right: 3rem;
+    align-items: center;
+
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+
 }
 
 
