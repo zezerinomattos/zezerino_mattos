@@ -2,7 +2,8 @@
 
 font-family: 'Blinker', sans-serif;
 font-family: 'Cabin Sketch', cursive;
-font-family: 'Raleway', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Raleway', sans-seri
 font-family: 'Recursive', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Rubik', sans-serif;
@@ -15,13 +16,12 @@ Branco = #FFFF
 Azul quem sou = #00082C
 */
 
-
 *{
     font-size: 16px;
 }
 
 h1, h2 {
-    font-size: 350%;
+    font-size: 390%;
 }
 
 
@@ -69,4 +69,36 @@ nav#header-principal-nav-contato ul#nav-contato-direita li h3{
     font-weight: 300;
     color: #FFFF;
     margin-left: 1rem;
+}
+
+/*----Nav inferior menu-----*/
+nav#header-principal-nav-menu ul li{
+    list-style: none;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+nav#header-principal-nav-menu ul li a{
+    text-decoration: none;
+    font-size: 90%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #FFFF;
+}
+
+/*----div inferior imagem logo p h1-----*/
+div#header-principal-mestre p{
+    font-size: 120%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFF;
+
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.336);
+}
+
+div#header-principal-mestre h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #FFFF;
+
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.336);
 }

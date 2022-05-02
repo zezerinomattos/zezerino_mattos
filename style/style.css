@@ -27,7 +27,7 @@ body{
 
 header#header-principal{
     width: 100%;
-    height: 800px;
+    height: 590px;
 
     display: flex;
     flex-direction: column;
@@ -70,13 +70,7 @@ nav#header-principal-nav-contato ul#nav-contato-direita{
 
 }
 
-
-
-
-
-
-
-
+/*----HEADER IMAGEM BACKGROUND-----*/
 div#header-principal-inferior{
     width: 100%;
     height: 535px;
@@ -85,3 +79,74 @@ div#header-principal-inferior{
     background-size: cover;
     background-position: center center;
 }
+
+/*----Nav inferior menu-----*/
+nav#header-principal-nav-menu{
+    width: 100%;
+    height: 10rem;
+    margin-top: 2.5rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+nav#header-principal-nav-menu ul.header-nav-menu{
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav#header-principal-nav-menu ul#nav-menu-esquerda{
+    justify-content: end;
+}
+
+nav#header-principal-nav-menu ul#nav-menu-direita{
+    justify-content: start;
+}
+
+/*----Nav inferior menu imagem Zezerino-----*/
+nav#header-principal-nav-menu div#nav-menu-imagem-zezerino{
+    width: 12%;
+    height: 9rem; 
+}
+
+nav#header-principal-nav-menu div#nav-menu-imagem-zezerino img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+
+    border-radius: 50%;
+    box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.514);
+}
+
+/*----div inferior imagem logo p h1-----*/
+div#header-principal-inferior div#header-principal-mestre{
+    width: 80%;
+    height: 58%;
+    margin: auto;
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+div#header-principal-mestre div#header-mestre-logo{
+    width: 14%;
+    height: 35%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+div#header-principal-mestre div#header-mestre-logo img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
