@@ -102,3 +102,72 @@ div#header-principal-mestre h1{
 
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.336);
 }
+
+/*--------------------------*/
+/*   SECTION QUEM SOU       */
+/*--------------------------*/
+
+/*---div superior direita ---*/
+div#quemsou-superior-mestre div#quemsou-superior-esquerda h4{
+    font-size: 120%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    margin-left: 1.5rem;
+    color: #F40E0E;
+    margin-bottom: 1.5rem;
+}
+
+div#quemsou-superior-mestre div#quemsou-superior-esquerda p{
+    width: 85%;
+    font-style: oblique;
+    margin-left: 1rem;
+    text-align: left;
+    font-size: 100%;
+    color: #FFFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-sup{
+    font-size: 300%;
+    color: #F40E0E;
+    font-family: 'Recursive', sans-serif;
+    font-style: normal;
+    position: absolute;
+    left: 5.4rem;
+    top: 43.5rem;
+}
+
+div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-inf{
+    font-size: 300%;
+    color: #F40E0E;
+    font-family: 'Recursive', sans-serif;
+    font-style: normal;
+    
+    position: absolute;
+    left: 19rem;
+}
+
+div#quemsou-superior-mestre div#quemsou-superior-esquerda p#superior-esquerda-autor{
+    font-size: 70%;
+    margin-top: 0.4rem;
+    margin-left: 7rem;
+}
+
+/*---div superior direita ---*/
+div#quemsou-superior-mestre div#quemsou-superior-direita h2{
+    font-size: 200%;
+    font-family: 'Raleway', sans-seri;
+    color: #F40E0E;
+    
+}
+
+div#quemsou-superior-mestre div#quemsou-superior-direita p{
+    width: 95%;
+    font-size: 90%;
+    font-size: 100%;
+    color: #FFFF;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    text-align: left;
+}
+
