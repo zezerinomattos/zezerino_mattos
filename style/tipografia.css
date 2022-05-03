@@ -171,3 +171,26 @@ div#quemsou-superior-mestre div#quemsou-superior-direita p{
     text-align: left;
 }
 
+/*--- Inferior ----*/
+section#main-principal-quemsou div#quemsou-inferior-mestre h4{
+    font-size: 130%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #F40E0E;
+    margin-bottom: .3rem;
+    text-transform: uppercase;
+}
+
+section#main-principal-quemsou div#quemsou-inferior-mestre p{
+    font-size: 90%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFF;
+}
+
+section#main-principal-quemsou div#quemsou-inferior-mestre h3{
+    font-size: 130%;
+    font-family: 'Rubik', sans-serif;
+    color: #FFFF;
+    margin-top: 2.5rem;
+    text-align: center;
+}
