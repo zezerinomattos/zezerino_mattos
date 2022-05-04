@@ -177,6 +177,7 @@ section#main-principal-quemsou div#quemsou-inferior-mestre h4{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     color: #F40E0E;
+    margin-left: 5rem;
     margin-bottom: .3rem;
     text-transform: uppercase;
 }
@@ -185,6 +186,7 @@ section#main-principal-quemsou div#quemsou-inferior-mestre p{
     font-size: 90%;
     font-family: 'Ubuntu', sans-serif;
     color: #FFFF;
+    margin-left: 5rem;
 }
 
 section#main-principal-quemsou div#quemsou-inferior-mestre h3{
