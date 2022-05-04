@@ -46,6 +46,11 @@ nav#header-principal-nav-contato ul#nav-contato-esquerda li a ion-icon{
     ;
 }
 
+nav#header-principal-nav-contato ul#nav-contato-esquerda li a ion-icon:hover{
+    color: #F40E0E;
+    transition: 1s;
+}
+
 /* nav superior contato */
 nav#header-principal-nav-contato ul#nav-contato-direita li{
     list-style: none;
@@ -84,6 +89,13 @@ nav#header-principal-nav-menu ul li a{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     color: #FFFF;
+}
+
+nav#header-principal-nav-menu ul li a:hover{
+    color: #F40E0E;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #F40E0E;
+    transition: 1s;
 }
 
 /*----div inferior imagem logo p h1-----*/
@@ -203,6 +215,9 @@ div#quemsou-inferior-skills div#inferior-skills-centro ul p{
 }
 
 /*--- Inferior diferenciais----*/
+div#quemsou-diferenciais h3{
+    color: #FFFF;
+}
 
 div#quemsou-diferenciais div.slides div.slide div.slide-texto h3{
     color: #FFFF;
@@ -216,4 +231,92 @@ div#quemsou-diferenciais div.slides div.slide div.slide-texto p{
     color: #FFFF;
     text-align: left;
     margin-left: 1rem;
+}
+
+/*--------------------------*/
+/*   SECTION O QUE FAÇO     */
+/*--------------------------*/
+
+section#oque-faco h1{
+    font-size: 500%;
+    color: #F40E0E;
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 600;
+    text-shadow: 4px 6px 10px rgba(0, 0, 0, 0.411);
+    margin-top: 2rem;
+}
+
+section#oque-faco h2{
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFF;
+    text-transform: uppercase;
+}
+
+div#oque-faco-mestre-superior div#oque-faco-centro h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    font-weight: 800;
+    margin-top: .5rem;
+    margin-bottom: .1rem;
+}
+
+div#oque-faco-mestre-superior div#oque-faco-centro h3{
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+
+div#oque-faco-mestre-superior div#oque-faco-centro p{
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: .5rem;
+
+}
+
+div.botao-saiba-mais{
+    padding: 2px 20px;
+    border: 1px solid #FFFF;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+div.botao-saiba-mais:hover{
+    background-color: #F40E0E;
+    transition: 1s;
+}
+
+div.botao-saiba-mais a{
+    text-decoration: none;
+}
+
+div.botao-saiba-mais h5{
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---inferior---*/
+div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    font-weight: 800;
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: .1rem;
+}
+
+div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda p{
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda h3{
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
 }
