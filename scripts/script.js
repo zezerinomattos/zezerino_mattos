@@ -1,7 +1,7 @@
 /*--------------------------*/
 /*   SECTION QUEM SOU       */
 /*--------------------------*/
-/*--- Inferior skills carrosel----*/
+/*--- Inferior skills carrossel----*/
 
 var quantidade = $('div#inferior-skills-centro ul').length;
 var limite = (quantidade * 146) * -1;
@@ -50,3 +50,22 @@ $('div#inferior-skills-esquerda').click( function() {
     $('div#inferior-skills-direita ion-icon').css('opacity', 1);
     $('div#inferior-skills-direita ion-icon').css('cursor', 'pointer');
 })
+
+/*--- Inferior diferenciais carrossel----*/
+
+let cont = 1;
+
+document.getElementById("radio1").checked = true;
+
+setInterval(function(){
+    proxImagem();
+}, 4500)
+
+function proxImagem(){
+    cont ++;
+    if(cont > 3){
+        cont = 1;
+    }
+
+    document.getElementById("radio"+cont).checked = true;
+}

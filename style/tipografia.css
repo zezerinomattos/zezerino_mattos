@@ -196,3 +196,24 @@ section#main-principal-quemsou div#quemsou-inferior-mestre h3{
     margin-top: 2.5rem;
     text-align: center;
 }
+
+div#quemsou-inferior-skills div#inferior-skills-centro ul p{
+    font-size: 120%;
+    margin: auto;
+}
+
+/*--- Inferior diferenciais----*/
+
+div#quemsou-diferenciais div.slides div.slide div.slide-texto h3{
+    color: #FFFF;
+    margin-bottom: 10px;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+div#quemsou-diferenciais div.slides div.slide div.slide-texto p{
+    width: 90%;
+    color: #FFFF;
+    text-align: left;
+    margin-left: 1rem;
+}
