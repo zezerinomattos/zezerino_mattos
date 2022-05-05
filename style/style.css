@@ -451,24 +451,32 @@ div#oque-faco-mestre div#oque-faco-mestre-superior{
 }
 
 div#oque-faco-mestre-superior div#oque-faco-borda-esq{
-    position: relative;
+    position: absolute;
     width: 5px;
     height: 239px;
     background-color: #FFFF;  
     margin-top: 6rem;
-    margin-right: 1rem;
+    margin-left: -18rem;
     transform: skew(50deg); 
 }
 
 div#oque-faco-mestre-superior div#oque-faco-borda-dir{
-    position: relative;
+    position: absolute;
     width: 5px;
     height: 239px;
     background-color: #FFFF;
     margin-top: 6rem;
-    margin-left: 1rem;
+    margin-right: -18rem;
 
     transform: skew(-50deg); 
+}
+
+div#oque-faco-mestre-superior div#oque-faco-borda-centro{
+    position: absolute;
+    width: 4px;
+    height: 360px;
+    margin-top: 20.9rem;
+    background-color: #FFFF; 
 }
 
 div#oque-faco-mestre-superior div#oque-faco-centro{
@@ -492,6 +500,7 @@ div#oque-faco-mestre-superior div#oque-faco-centro img{
 
 /*---inferior---*/
 section#oque-faco div#oque-faco-mestre-inferior{
+    position: relative;
     width: 70%;
     height: 90%;
     margin: auto;
@@ -519,9 +528,20 @@ div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda img{
     max-width: 100%;
 }
 
-div#oque-faco-mestre-inferior div#oque-faco-inferior-centro{
-    width: 8px;
-    height: 360px;
-    margin-top: -.2rem;
-    background-color: #FFFF; 
+div#oque-faco-mestre-inferior div#oque-faco-inferior-direita{
+    width: 40%;
+    height: 100%;
+    margin-left: 2rem;
+    align-items: center;
+    margin-right: 2.2rem;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+div#oque-faco-mestre-inferior div#oque-faco-inferior-direita img{
+    width: 25%;
+    max-width: 100%;
 }
