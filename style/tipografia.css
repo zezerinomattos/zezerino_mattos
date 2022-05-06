@@ -415,3 +415,78 @@ div.portfolio-trabalhos-img div.portfolio-trabalhos-texto h4{
 div.portfolio-trabalhos-img div.portfolio-trabalhos-texto a{
     text-decoration: none;
 }
+
+/*--------------------------*/
+/*  ELEMENTOS DO CONTATO    */
+/*--------------------------*/
+
+section#contato div#contato-formulario h3{
+    color: #FFFF;
+    font-size: 180%;
+    font-family: 'Blinker', sans-serif;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    
+}
+
+div#contato-formulario form input.formulario,select#assunto{
+    background-color: #FFFF;   
+    color: #13182B;
+    padding-left: .5rem;
+    margin-top: 1.5rem;
+    width: 90%;
+    height: 2.5rem;
+
+    border: 1px solid #13182B;
+    border-radius: 15px;
+    outline: none;   
+}
+
+div#contato-formulario label{
+    display: flex;
+    justify-content: left;
+
+    margin-left: 3.3rem;
+    margin-top: .8rem;
+    margin-bottom: -1.9rem;
+}
+
+div#contato-formulario label{
+    font-family: 'Almarai', sans-serif;
+    color: #FFFF;
+}
+
+div#contato-formulario input::placeholder {
+    color: #13182B;
+}
+
+div#contato-formulario form textarea#message{
+    font-size: 110%;
+    background-color: #FFFF;
+    color: #13182B;
+    padding-left: .5rem;
+    margin-top: 1rem;
+    width: 90%;
+
+    border: 2px solid #13182B;
+    border-radius: 15px;
+    outline: none;
+}
+
+div#contato-formulario  textarea::placeholder{
+    color: #13182B;
+}
+
+section#contato div#contato-formulario #form-mensagem-botao{
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-size: 120%;
+    font-weight: 600;
+    background: linear-gradient(rgba(244,14,14, 0.8) 0%, rgba(114, 10, 10) 50%, rgba(244,14,14, 0.8) 100%);   
+    padding: .5rem 38%;
+    margin-top: .5rem;
+    text-transform: uppercase;
+
+    border: 1px solid rgba(114, 10, 10);
+    border-radius: 25px;
+}

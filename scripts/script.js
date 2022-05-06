@@ -69,3 +69,38 @@ function proxImagem(){
 
     document.getElementById("radio"+cont).checked = true;
 }
+
+/*--------------------------*/
+/*  ELEMENTOS DO CONTATO    */
+/*--------------------------*/
+/*--- Enviando email pelo FORMSPRE -------*/
+$(function($){
+
+	$("form").submit(function(event) {
+
+		event.preventDefault();
+
+		$.ajax({
+	    url: "https://formspree.io/f/xyyobqvq", 
+	    method: "POST",
+	    data: {
+	    	nome: $("#nome").val(),
+	    	email: $("#email").val(),
+            telefone: $("#telefone").val(),
+            assunto: $("#assunto").val(),
+	    	message: $("#message").val()  
+	    },
+	    dataType: "json"
+		}).done(function(){
+			$("#nome").val("");
+			$("#email").val("");
+            $("#telefone").val("");
+            $("#assunto").val("");
+			$("#message").val("");
+			alert("Email enviado com sucesso!");
+		}).fail(function(){
+			alert("Erro ao enviar email!");
+		});
+	});
+
+}) ;
