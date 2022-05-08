@@ -120,7 +120,12 @@ nav#header-principal-nav-menu ul#nav-menu-direita{
 /*----Nav inferior menu imagem Zezerino-----*/
 nav#header-principal-nav-menu div#nav-menu-imagem-zezerino{
     width: 12%;
-    height: 9rem; 
+    height: 9rem;
+    
+    animation-name: imgZezerino;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 
 nav#header-principal-nav-menu div#nav-menu-imagem-zezerino img{
@@ -673,7 +678,7 @@ section#contato div#contato-localizacao iframe{
 
 footer{
     width: 100%;
-    height: 550px;
+    height: 600px;
     background-color: #0d101f;
 }
 
