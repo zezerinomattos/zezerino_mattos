@@ -40,6 +40,11 @@ $('header#header-principal div#header-principal-inferior nav#header-principal-na
     })
 })
 
+// açoes de navegacao section O que faço
+$('section#oque-faco div#oque-faco-mestre div.botao-saiba-mais a').click(function(){
+    $('html, body').animate({scrollTop:$('section#contato').offset().top}, 1000)
+})
+
 
 // açoes de navegacao footer
 

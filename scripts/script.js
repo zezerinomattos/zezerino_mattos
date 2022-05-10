@@ -4,8 +4,8 @@
 /*--- Inferior skills carrossel----*/
 
 var quantidade = $('div#inferior-skills-centro ul').length;
-var limite = (quantidade * 146) * -1;
-var largura = limite + 146;
+var limite = (quantidade * 156) * -1;
+var largura = limite + 156;
 var view_largura = $('div#quemsou-inferior-skills').width();
 
 

@@ -1,0 +1,214 @@
+/*--------------------------*/
+/*  ELEMENTOS DO HEADER     */
+/*--------------------------*/
+
+/* nav superior redes sociais */
+
+nav#header-principal-nav-menu{
+    justify-content: space-between;
+}
+
+div#header-principal-mestre p{
+    font-size: 100%;
+    transition: 1s;
+}
+
+div#header-principal-mestre h1{
+    font-size: 290%;
+    transition: 1s;
+}
+
+@media screen and (max-width:980px){
+
+    nav#header-principal-nav-menu ul.header-nav-menu{
+        width: 38%;
+    }
+
+    nav#header-principal-nav-menu ul li{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    nav#header-principal-nav-menu ul li a{
+        font-size: 70%;
+    }
+    nav#header-principal-nav-menu div#nav-menu-imagem-zezerino{
+        width: 13%;
+        height: 8rem;
+    }
+}
+
+/*--------------------------*/
+/*   SECTION QUEM SOU       */
+/*--------------------------*/
+@media screen and (max-width:960px) {
+    section#main-principal-quemsou div#quemsou-superior-mestre{
+        width: 98%;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p{
+        font-size: 90%;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-sup{
+        left: 1.4rem;
+        top: 43.5rem;
+    }
+    
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-inf{
+        left: 15rem;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-centro{
+        width: 25%;
+        height: 60%;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-direita p{
+        font-size: 90%;
+    }
+
+    /*--- Inferior skills----*/
+    div#quemsou-inferior-mestre div#quemsou-inferior-skills{
+        width: 100%;
+    }
+
+}
+
+/*--------------------------*/
+/*   SECTION O QUE FAÇO     */
+/*--------------------------*/
+section#oque-faco h1{
+    font-size: 400%;
+}
+
+section#oque-faco h2{
+    font-size: 140%;
+}
+
+@media screen and (max-width:960px) {
+    section#oque-faco h1{
+        font-size: 350%;
+    }
+    
+    div#oque-faco-mestre-superior div#oque-faco-borda-esq, div#oque-faco-mestre-superior div#oque-faco-borda-dir, div#oque-faco-mestre-superior div#oque-faco-borda-centro{
+        display: none;
+    }
+
+    div#oque-faco-mestre-superior div#oque-faco-centro{
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    div#oque-faco-mestre-superior div#oque-faco-centro img{
+        width: 25%;
+        height: 30%;
+    }
+
+    section#oque-faco div#oque-faco-mestre-inferior{
+        align-items: center;
+        flex-flow: column;
+        flex-wrap: nowrap;
+    }
+
+    div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda, div#oque-faco-mestre-inferior div#oque-faco-inferior-direita{
+        width: 80%;
+    }
+}
+
+/*--------------------------*/
+/*  ELEMENTOS DO PORTFÓLIO  */
+/*--------------------------*/
+
+@media screen and (max-width:900px) {
+    section#portfolio{
+        height: 800px;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: start;
+    } 
+
+    section#portfolio div#portfolio-apresentacao{
+        width: 100%;
+        height: 30%;
+        align-items: baseline;
+        padding-left: 2rem;
+    }
+
+    section#portfolio div#portfolio-apresentacao h2{
+        font-size: 320%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    section#portfolio div#portfolio-apresentacao p{
+        width: 60%;
+        font-size: 110%;
+        margin-bottom: 2rem;
+        margin-left: .5rem;
+    }
+
+    div#portfolio-trabalhos-mestre{
+        width: 100%;
+        height: 70%;
+    }
+
+}
+
+/*--------------------------*/
+/*  ELEMENTOS DO CONTATO    */
+/*--------------------------*/
+
+section#contato div#contato-formulario
+{
+    width: 48%;
+}
+
+section#contato div#contato-formulario #form-mensagem-botao{
+    padding: .5rem 32%;
+}
+
+section#contato div#contato-localizacao{
+    width: 45%;
+}
+
+/*--------------------------*/
+/*  ELEMENTOS DO FOOTER      */
+/*--------------------------*/
+
+@media screen and (max-width:990px) {
+
+    footer div.footer-mestre h3{
+        font-size: 70%;
+        font-weight: 300;
+        margin-top: 18rem;
+        margin-left: 3.5rem;
+    }
+
+    footer div#footer-superior div#footer-logo{
+        width: 12%;
+        height: 80%;
+    }
+
+    footer div#footer-inferior{
+        width: 90%;
+    }
+
+    footer div#footer-inferior div#footer-inferior-menu ul li{
+        margin-top: .5rem;
+    }
+
+    footer div#footer-inferior div#footer-inferior-menu h2, footer div#footer-inferior div#footer-inferior-redes-sociais h2, footer div#footer-inferior div#footer-inferior-contatos h2{
+        font-size: 130%;
+    }
+
+    footer div#footer-inferior div#footer-inferior-contatos ul li h1{
+        font-size: 120%;
+    }
+
+    footer div#footer-inferior div#footer-inferior-contatos ul li ion-icon{
+        font-size: 140%;
+    }
+}

@@ -188,7 +188,6 @@ div#quemsou-superior-mestre div#quemsou-superior-direita h2{
 
 div#quemsou-superior-mestre div#quemsou-superior-direita p{
     width: 95%;
-    font-size: 90%;
     font-size: 100%;
     color: #FFFF;
     font-family: 'Ubuntu', sans-serif;
@@ -391,7 +390,7 @@ section#portfolio div#portfolio-apresentacao a{
     border-radius: 10px;
 }
 
-div.portfolio-trabalhos-img div.portfolio-trabalhos-texto h3{
+div.portfolio-trabalhos-texto h3{
     color: #FFFF;
     font-size: 160%;
     font-family: 'Ubuntu', sans-serif;
@@ -399,14 +398,14 @@ div.portfolio-trabalhos-img div.portfolio-trabalhos-texto h3{
     text-align: center;
 }
 
-div.portfolio-trabalhos-img div.portfolio-texto-p{
+div.portfolio-texto-p{
     display: flex;
     flex-flow: row;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-div.portfolio-trabalhos-img div.portfolio-trabalhos-texto p{
+div.portfolio-trabalhos-texto p{
     color: #F40E0E;
     font-size: 80%;
     padding: 5px;
@@ -416,7 +415,7 @@ div.portfolio-trabalhos-img div.portfolio-trabalhos-texto p{
     background-color: #FFFF;
 }
 
-div.portfolio-trabalhos-img div.portfolio-trabalhos-texto h4{
+div.portfolio-trabalhos-texto h4{
     color: #FFFF;
     border-radius: 10px;
     border: 1px solid #FFFF;
@@ -425,7 +424,7 @@ div.portfolio-trabalhos-img div.portfolio-trabalhos-texto h4{
     text-align: center;
 }
 
-div.portfolio-trabalhos-img div.portfolio-trabalhos-texto a{
+div.portfolio-trabalhos-texto a{
     text-decoration: none;
 }
 
@@ -513,6 +512,7 @@ footer div.footer-mestre h3{
     margin-top: 22rem;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
 }
 
 /*Menu*/
