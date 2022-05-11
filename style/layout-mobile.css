@@ -25,7 +25,7 @@
 
     nav#header-principal-nav-menu ul#nav-menu-esquerda{
         width: 80%;
-        height: 17%;
+        height: 19%;
         position: absolute;
         right: 0;
         margin-top: -2.4rem;
@@ -370,4 +370,54 @@
 /*   SECTION O QUE FAÇO     */
 /*--------------------------*/
 
+@media screen and (max-width:700px) {
 
+    section#oque-faco div#oque-faco-mestre{
+        width: 95%;
+    }
+
+    div#oque-faco-mestre div#oque-faco-mestre-superior{
+        width: 100%;
+    }
+
+    div#oque-faco-mestre-superior div#oque-faco-centro{
+        width: 90%;
+    }
+
+    div#oque-faco-mestre-superior div#oque-faco-centro img{
+        width: 25%;
+        height: 30%;
+    }
+
+    section#oque-faco h1{
+        font-size: 350%;
+    }
+
+    section#oque-faco h2{
+        font-size: 130%;
+    }
+
+    div#oque-faco-mestre-superior div#oque-faco-centro h2, div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda h2, div#oque-faco-mestre-inferior div#oque-faco-inferior-direita h2{
+        font-size: 110%;
+    }
+
+    div#oque-faco-mestre-superior div#oque-faco-centro p, div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda p, div#oque-faco-mestre-inferior div#oque-faco-inferior-direita p{
+        font-size: 80%;
+    
+    }
+
+    /*---inferior---*/
+    section#oque-faco div#oque-faco-mestre-inferior{
+        width: 95%;
+    }
+
+    div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda, div#oque-faco-mestre-inferior div#oque-faco-inferior-direita{
+        width: 100%;
+    }
+
+    div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda img{
+        width: 25%;
+        max-width: 30%;
+    }
+
+}
