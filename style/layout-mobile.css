@@ -1,0 +1,100 @@
+/*--------------------------*/
+/*  ELEMENTOS DO HEADER     */
+/*--------------------------*/
+@media screen and (max-width: 810px) {
+
+    nav#header-principal-nav-contato{
+        justify-content: right;
+    }
+
+    nav#header-principal-nav-contato ul#nav-contato-esquerda, nav#header-principal-nav-contato ul#nav-contato-direita{
+        display: none;
+    }
+
+    /* MENU */
+    nav#header-principal-nav-menu{
+        justify-content: center;
+    }
+
+    nav#header-principal-nav-menu ul.header-nav-menu{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        z-index: 999;
+
+        display: none;
+    }
+
+    nav#header-principal-nav-menu ul#nav-menu-esquerda{
+        width: 80%;
+        height: 26.8%;
+        position: absolute;
+        right: 0;
+        margin-top: -2.4rem;
+        justify-content: start;
+        background: linear-gradient(rgba(0,8,44, 0.8) 0%, rgba(89,18,2) 45%, rgba(139, 49, 49, 0.9) 100%);
+
+    }
+
+    nav#header-principal-nav-menu ul#nav-menu-direita{
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        right: 0;
+        margin-top: 5.8rem;
+        background: linear-gradient(rgba(139, 49, 49, 0.9) 0%, rgba(89,18,2) 45%, rgba(0,8,44, 0.8) 100%);
+    }
+
+    nav#header-principal-nav-menu ul li{
+        margin-top: 1.5rem;
+    }
+
+    /*----------- MENUS MOBILE-----------*/
+    nav#header-principal-nav-contato ul#icone-menu li{
+        list-style: none;
+        margin-right: 1rem;
+    }
+
+    nav#header-principal-nav-contato ul#icone-menu ion-icon#menu-humburguer{
+        font-size: 250%;
+        color: #FFF;
+    }
+
+    nav#header-principal-nav-contato ul#icone-menu ion-icon#menu-X{
+        font-size: 250%;
+        color: #FFF;
+
+        display: none;
+    }
+    /*-----------------------------------------*/
+
+    nav#header-principal-nav-menu div#nav-menu-imagem-zezerino{
+        width: 16%;
+        height: 12;
+    }
+
+    div#header-principal-mestre div#header-mestre-logo{
+        width: 20%;
+        margin-top: -.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    nav#header-principal-nav-menu div#nav-menu-imagem-zezerino{
+        width: 18%;
+    }
+
+    div#header-principal-mestre div#header-mestre-logo{
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav#header-principal-nav-menu div#nav-menu-imagem-zezerino{
+        width: 28%;
+    }
+
+    div#header-principal-mestre div#header-mestre-logo{
+        width: 28%;
+    }
+}
