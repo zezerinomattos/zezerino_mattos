@@ -190,3 +190,157 @@
         width: 80%;
     }
 }
+
+@media screen and (max-width:700px) {
+
+    main#main-principal section#main-principal-quemsou{
+        height: 750px;
+    }
+    
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p{
+        width: 100%;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-inf{
+        margin-left: 20rem;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p#superior-esquerda-autor{
+        width: 60%;
+        font-size: 80%;
+        margin-top: .5rem;
+        margin-left: 0;
+    }
+
+     /*---div superior centro img ---*/
+    div#quemsou-superior-mestre div#quemsou-superior-centro{
+        width: 35%;
+        height: 40%;
+    }
+
+    /* --- centro ---*/
+    div#quemsou-inferior-skills div#inferior-skills-centro ul{
+        width: 110px;
+    }
+
+    div#quemsou-inferior-skills div#inferior-skills-centro ul li{
+        width: 60%;
+    }
+
+    div#quemsou-inferior-skills div#inferior-skills-centro ul p{
+        font-size: 80%;
+    }
+
+    /*--- Inferior diferenciais----*/
+    section#main-principal-quemsou div#quemsou-diferenciais{
+        width: 90%;
+        height: 12.5rem; 
+    }
+
+    div#quemsou-diferenciais div.slides div.slide img{
+        width: 10%;
+        height: 30%;
+    }
+
+    div#quemsou-diferenciais div.slides div.slide div.slide-texto{
+        width: 90%; 
+        margin-right: 10px;
+    }
+
+    div#quemsou-diferenciais h3{
+        font-size: 90%;
+    }
+
+    div#quemsou-diferenciais div.slides div.slide div.slide-texto p{
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda{
+        width: 100%;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p{
+        font-size: 70%;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-sup{
+        font-size: 250%;
+    }
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-inf{font-size: 250%;
+        margin-left: 10rem;
+        margin-top: 1rem;
+    }
+
+    /*---div superior direita ---*/
+    div#quemsou-superior-mestre div#quemsou-superior-direita{
+        width: 100%;
+    }
+
+    
+    div#quemsou-superior-mestre div#quemsou-superior-direita h2{
+    font-size: 160%;
+    font-family: 'Raleway', sans-seri;
+    color: #F40E0E;
+    
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-direita p{
+        width: 100%;
+        font-size: 70%;
+    }
+
+    /*---div superior centro img ---*/
+    div#quemsou-superior-mestre div#quemsou-superior-centro{
+        width: 55%;
+        height: 50%;
+    }
+    
+    /*--- Inferior ----*/
+    section#main-principal-quemsou div#quemsou-inferior-mestre h4{
+        font-size: 110%;
+    }
+
+    section#main-principal-quemsou div#quemsou-inferior-mestre p{
+        font-size: 80%;
+    }
+
+    section#main-principal-quemsou div#quemsou-inferior-mestre h3{
+        font-size: 100%;
+    }
+
+    section#main-principal-quemsou div#quemsou-diferenciais{
+        left: 1rem;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+        
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-inf{font-size: 250%;
+        margin-left: 8rem;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p#superior-esquerda-autor{
+        width: 80%;
+        font-size: 60%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:400px) {
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-inf{font-size: 250%;
+        margin-left: 3rem;
+    }
+
+     /*---div superior centro img ---*/
+     div#quemsou-superior-mestre div#quemsou-superior-centro{
+        width: 75%;
+        height: 40%;
+    }
+
+    
+}
+
