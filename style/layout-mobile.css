@@ -25,7 +25,7 @@
 
     nav#header-principal-nav-menu ul#nav-menu-esquerda{
         width: 80%;
-        height: 19%;
+        height: 18.7%;
         position: absolute;
         right: 0;
         margin-top: -2.4rem;
@@ -381,7 +381,7 @@
     }
 
     div#oque-faco-mestre-superior div#oque-faco-centro{
-        width: 90%;
+        width: 100%;
     }
 
     div#oque-faco-mestre-superior div#oque-faco-centro img{
@@ -403,7 +403,7 @@
 
     div#oque-faco-mestre-superior div#oque-faco-centro p, div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda p, div#oque-faco-mestre-inferior div#oque-faco-inferior-direita p{
         font-size: 80%;
-    
+        width: 100%;
     }
 
     /*---inferior---*/
@@ -419,5 +419,80 @@
         width: 25%;
         max-width: 30%;
     }
-
 }
+
+/*--------------------------*/
+/*  ELEMENTOS DO PORTFÓLIO  */
+/*--------------------------*/
+
+@media screen and (max-width:700px) {
+    
+    section#portfolio{
+        height: 550px;
+    }
+    section#portfolio div#portfolio-apresentacao{
+        height: 35%;
+    }
+
+    section#portfolio div#portfolio-apresentacao h2{
+        font-size: 200%;
+    }
+
+    section#portfolio div#portfolio-apresentacao p{
+        width: 90%;
+        font-size: 90%;
+    }
+
+    section#portfolio div#portfolio-apresentacao a{
+        font-size: 90%;
+        padding: 10px 15px;
+    }
+
+    div#portfolio-trabalhos-mestre{
+        height: 65%;
+    }
+}
+
+@media screen and (max-width:500px) {
+     section#portfolio div#portfolio-trabalhos-direita{
+        display: none;
+    }
+
+    section#portfolio div#portfolio-trabalhos-esquerda{
+        width: 50%;
+    }
+
+    section#portfolio div#portfolio-trabalhos-centro{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:415px) {
+
+    section#portfolio{
+        height: 700px;
+    }
+
+    section#portfolio div#portfolio-apresentacao{
+        height: 30%;
+    }
+
+    section#portfolio div#portfolio-trabalhos-centro{
+        display: none;
+    }
+
+    div#portfolio-trabalhos-mestre{
+        height: 70%;
+    }
+
+    section#portfolio div#portfolio-trabalhos-esquerda{
+        width: 100%;
+    }
+}
+
+/*--------------------------*/
+/*  ELEMENTOS DO CONTATO    */
+/*--------------------------*/
+
+
+

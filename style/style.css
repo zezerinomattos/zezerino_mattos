@@ -553,6 +553,8 @@ div#oque-faco-mestre-inferior div#oque-faco-inferior-direita{
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: start;
+
+    display: none;
 }
 
 div#oque-faco-mestre-inferior div#oque-faco-inferior-direita img{
