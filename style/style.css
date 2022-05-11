@@ -53,6 +53,12 @@ nav#header-principal-nav-contato{
     justify-content: space-between;
 }
 
+/*----------- MENUS MOBILE-----------*/
+
+nav#header-principal-nav-contato ul#icone-menu li{
+    display: none;
+}
+
 /* nav superior redes sociais */
 nav#header-principal-nav-contato ul#nav-contato-esquerda{
     width: 30%;
