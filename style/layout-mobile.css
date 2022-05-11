@@ -20,13 +20,12 @@
         flex-direction: column;
         flex-wrap: nowrap;
         z-index: 999;
-
         display: none;
     }
 
     nav#header-principal-nav-menu ul#nav-menu-esquerda{
         width: 80%;
-        height: 26.8%;
+        height: 16.19%;
         position: absolute;
         right: 0;
         margin-top: -2.4rem;
@@ -319,7 +318,8 @@
 
 @media screen and (max-width:500px) {
         
-    div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-inf{font-size: 250%;
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-inf{
+        font-size: 250%;
         margin-left: 8rem;
     }
 
@@ -328,6 +328,18 @@
         font-size: 60%;
         margin-left: 0;
     }
+
+    /*--- Inferior diferenciais----*/
+    div#quemsou-diferenciais .manual-navigation{
+        left: 8rem;
+        margin-top: -32px;
+    }
+
+    .navigation-auto{
+        margin-top: 6.9rem;
+        margin-left: -4.3rem;
+    }
+
 }
 
 @media screen and (max-width:400px) {
@@ -341,6 +353,21 @@
         height: 40%;
     }
 
+    /*--- Inferior diferenciais----*/
+    div#quemsou-diferenciais .manual-navigation{
+        left: 8rem;
+        margin-top: -32px;
+    }
+
+    .navigation-auto{
+        margin-top: 6.9rem;
+        margin-left: -4.6rem;
+    }
     
 }
+
+/*--------------------------*/
+/*   SECTION O QUE FAÇO     */
+/*--------------------------*/
+
 
