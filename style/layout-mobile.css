@@ -70,6 +70,11 @@
     nav#header-principal-nav-menu div#nav-menu-imagem-zezerino{
         width: 16%;
         height: 12;
+
+        animation-name: imgZezerinoMobile;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: backwards;
     }
 
     div#header-principal-mestre div#header-mestre-logo{
@@ -96,5 +101,92 @@
 
     div#header-principal-mestre div#header-mestre-logo{
         width: 28%;
+    }
+}
+
+/*--------------------------*/
+/*   SECTION QUEM SOU       */
+/*--------------------------*/
+
+@media screen and (max-width: 810px){
+
+    main#main-principal section#main-principal-quemsou{
+        height: 800px;
+    }
+
+    section#main-principal-quemsou div#quemsou-superior-mestre{
+        width: 90%;
+
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda{
+        width: 90%;
+        height: 20%;
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda h4{
+        font-size: 140%;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p{
+        width: 90%;
+        font-size: 90%;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-sup{
+        margin-top: -3rem;
+        margin-left: .5rem;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-inf{
+        margin-left: 23rem;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p#superior-esquerda-autor{
+        font-size: 80%;
+        text-align: right;
+        margin-top: 1rem;
+        padding-right: 7rem;
+    }
+    
+    /*---div superior centro img ---*/
+    div#quemsou-superior-mestre div#quemsou-superior-centro{
+        width: 40%;
+        height: 50%;
+    }
+
+    /*---div superior direita ---*/
+    div#quemsou-superior-mestre div#quemsou-superior-direita{
+        width: 90%;
+        height: 40%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-direita h2{
+        font-size: 250%;
+        margin-top: .5rem;
+    }
+
+    div#quemsou-superior-mestre div#quemsou-superior-direita p{
+        font-size: 90%;
+    }
+
+    /*--- Inferior skills----*/
+    section#main-principal-quemsou div#quemsou-inferior-mestre{
+        margin-top: 4.5rem;
+    }
+
+    /* --- centro ---*/
+    div#quemsou-inferior-skills div#inferior-skills-centro ul{
+        width: 130px;
+    }
+
+    div#quemsou-inferior-skills div#inferior-skills-centro ul li{
+        width: 80%;
     }
 }
