@@ -25,7 +25,7 @@
 
     nav#header-principal-nav-menu ul#nav-menu-esquerda{
         width: 80%;
-        height: 17.7%;
+        height: 15.7%;
         position: absolute;
         right: 0;
         margin-top: -2.4rem;
@@ -366,6 +366,13 @@
     
 }
 
+@media screen and (max-width:320px) {
+    /*--- Inferior diferenciais----*/
+    .navigation-auto{
+        margin-left: -5rem;
+    }
+}
+
 /*--------------------------*/
 /*   SECTION O QUE FAÇO     */
 /*--------------------------*/
@@ -551,5 +558,94 @@
 /*  ELEMENTOS DO FOOTER      */
 /*--------------------------*/
 
+@media screen and (max-width:730px) {
+    footer{
+        height: 600px;
+    }
 
+    footer div#footer-superior{
+        height: 25%;
+
+    }
+
+    footer div#footer-superior div#footer-logo{
+        width: 15%;
+        height: 60%;
+    }
+
+    footer hr{
+        margin-top: 2.4rem;
+    }
+
+    footer div#footer-inferior{
+        flex-wrap: nowrap;
+        width: 80%;
+        margin-top: -2rem;
+    }
+
+    /*Menu*/
+    footer div#footer-inferior div#footer-inferior-menu{
+        width: 40%;
+        height: 50%;
+    }
+
+    /*Redes sociais*/
+    footer div#footer-inferior div#footer-inferior-redes-sociais{
+        width: 50%;
+        height: 50%;
+    }
+
+    footer div#footer-inferior div#footer-inferior-contatos{
+        position: absolute;
+        width: 45%;
+        height: 25%;
+
+        margin-top: 15rem;
+    }
+
+    footer div.footer-mestre h3{
+        margin-top: 24rem;
+        margin-left: 7rem;
+    }
+}
+
+@media screen and (max-width:560px) {
+
+    footer div.footer-mestre{
+        width: 100%;
+    }
+
+    footer div#footer-inferior{
+        width: 90%;
+    }
+
+    footer div.footer-mestre h3{
+        margin-left: 2.5rem;
+
+    }
+
+    footer div#footer-inferior div#footer-inferior-contatos{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:370px) {
+    footer div#footer-inferior{
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    footer div#footer-inferior div#footer-inferior-menu h2, footer div#footer-inferior div#footer-inferior-redes-sociais h2, footer div#footer-inferior div#footer-inferior-contatos h2{
+        font-size: 110%;
+    }
+
+    footer div#footer-inferior div#footer-inferior-menu ul li a, footer div#footer-inferior div#footer-inferior-redes-sociais ul li a{
+        font-size: 80%;
+    }
+
+    footer div.footer-mestre h3{
+        margin-left: 1rem;
+    }
+}
 

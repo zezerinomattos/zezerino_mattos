@@ -565,6 +565,7 @@ footer div#footer-inferior div#footer-inferior-redes-sociais ul li a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Contatos*/
 footer div#footer-inferior div#footer-inferior-contatos h2{
     color: #F40E0E;
     font-size: 160%;
@@ -574,7 +575,7 @@ footer div#footer-inferior div#footer-inferior-contatos h2{
     text-transform: uppercase;
 }
 
-/*Contatos*/
+
 footer div#footer-inferior div#footer-inferior-contatos ul li{
     list-style: none;
     margin-top: 1rem;
