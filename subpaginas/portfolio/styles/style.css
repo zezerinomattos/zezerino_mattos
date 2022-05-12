@@ -1,16 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: #13182B;
-}
-
-::-webkit-scrollbar {
-    display: none;
-}
 
 /*-------------------------------------------------------------*/
 
@@ -18,9 +5,22 @@ header#header-principal{
     height: 3rem;
 }
 
+/*--- Mobile ---*/
+
+@media screen and (max-width: 810px) {
+    nav#header-principal-nav-contato ul#nav-contato-direita{
+        display: flex;
+    }
+}
+
 /*--------------------------*/
 /*           MAIN           */
 /*--------------------------*/
+section#layouts{
+    width: 100%;
+    height: 35%;
+    
+}
 
 main div.container{
     width: 75%;
@@ -36,13 +36,26 @@ main div.container{
 main div.img-carroussel{
     width: 100%;
     height: 25rem;
-    
 }
+
+main div.container img{
+    height: 100%;
+}
+
 
 section#apresentação{
     width: 100%;
     height: 200px;
 }
+
+/*--- Mobile ---*/
+@media screen and (max-width: 900px) {
+    main div.container{
+        width: 100%;
+    }
+}
+
+
 
 /*-------------------------------------------------------------*/
 /*--------------------------*/
@@ -51,4 +64,29 @@ section#apresentação{
 section#contato{
     width: 100%;
     height: 650px;
+}
+
+/*--------------------------*/
+/*  ELEMENTOS DO FOOTER      */
+/*--------------------------*/
+/*--- Mobile ---*/
+
+@media screen and (max-width:730px) {
+    footer{
+        height: 750px;
+    }
+
+    footer div#footer-inferior div#footer-inferior-contatos{
+        position: absolute;
+        width: 80%;
+        height: 25%;
+
+        margin-top: 18rem;
+    }
+
+    footer div.footer-mestre h3{
+        margin-top: 28rem;
+        margin-left: 4rem;
+    }
+
 }
