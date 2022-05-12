@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #13182B;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*-------------------------------------------------------------*/
+
+header#header-principal{
+    height: 3rem;
+}
+
+/*--------------------------*/
+/*           MAIN           */
+/*--------------------------*/
+
+main div.container{
+    width: 75%;
+    height: 26rem;
+    align-items: center;
+    padding-top: .5rem;
+    border-radius: 25px;
+    background-color: #00082C;
+
+    box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.363);
+}
+
+main div.img-carroussel{
+    width: 100%;
+    height: 25rem;
+    
+}
+
+section#apresentação{
+    width: 100%;
+    height: 200px;
+}
+
+/*-------------------------------------------------------------*/
+/*--------------------------*/
+/*  ELEMENTOS DO CONTATO    */
+/*--------------------------*/
+section#contato{
+    width: 100%;
+    height: 650px;
+}
