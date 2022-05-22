@@ -13,14 +13,14 @@ main h1{
     margin-bottom: 1rem;
 }
 
-section#apresentação h2{
+section#apresentacao h2{
     color: #F40E0E;
     margin-left: 4rem;
     margin-top: 3rem;
     font-family: 'Raleway', sans-seri;
 }
 
-section#apresentação p{
+section#apresentacao p{
     color: #FFFF;
     width: 60%;
     margin-left:4rem;
@@ -31,15 +31,23 @@ section#apresentação p{
 
 /*--- Mobile ---*/
 @media screen and (max-width: 900px) {
-    section#apresentação p{
+    section#apresentacao p{
         width: 90%;
         font-size: 80%;
         margin-left: 1rem;
         line-height: 1.5;
     }
 
-    section#apresentação h2{
+    section#apresentacao h2{
         font-size: 150%;
         margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main h1{
+        width: 95%;
+        margin: auto;
+        font-size: 230%;
     }
 }
