@@ -172,6 +172,12 @@ div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-inf{
     left: 19rem;
 }
 
+@media (min-width: 1325px) and (max-width: 2560px) {
+    div#quemsou-superior-mestre div#quemsou-superior-esquerda p span.drop-inf{
+        left: 29rem;
+    }
+}
+
 div#quemsou-superior-mestre div#quemsou-superior-esquerda p#superior-esquerda-autor{
     font-size: 70%;
     margin-top: 0.4rem;
