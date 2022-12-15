@@ -332,7 +332,8 @@ div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda p{
     margin-bottom: .5rem;
 }
 
-div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda h3{
+div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda h3,  
+div#oque-faco-mestre-inferior div#oque-faco-inferior-direita h3{
     color: #FFFF;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 1rem;

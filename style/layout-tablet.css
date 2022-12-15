@@ -86,7 +86,30 @@ section#oque-faco h2{
     font-size: 140%;
 }
 
+@media screen and (max-width:1200px) {
+    section#oque-faco div#oque-faco-mestre{
+        width: 100%;
+    }
+
+    /*---inferior---*/
+    section#oque-faco div#oque-faco-mestre-inferior{
+        width: 90%;
+    }
+}
+
 @media screen and (max-width:960px) {
+
+    /*---superior---*/
+    section#oque-faco{
+        width: 100%;
+        height: 1300px;
+    }
+
+    div#oque-faco-mestre div#oque-faco-mestre-superior{
+        height: 50%;
+        margin-bottom: 50px;
+    }
+
     section#oque-faco h1{
         font-size: 350%;
     }
@@ -113,6 +136,7 @@ section#oque-faco h2{
 
     div#oque-faco-mestre-inferior div#oque-faco-inferior-esquerda, div#oque-faco-mestre-inferior div#oque-faco-inferior-direita{
         width: 80%;
+        margin-bottom: 50px;
     }
 }
 
