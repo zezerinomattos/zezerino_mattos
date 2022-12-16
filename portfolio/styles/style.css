@@ -24,7 +24,8 @@ section#layouts{
 
 main div.container{
     width: 75%;
-    height: 26rem;
+    /* height: 26rem; */
+    height: 35rem;
     align-items: center;
     padding-top: .5rem;
     border-radius: 25px;
@@ -35,7 +36,8 @@ main div.container{
 
 main div.img-carroussel{
     width: 100%;
-    height: 25rem;
+    /* height: 25rem; */
+    height: 34rem;
 }
 
 main div.container img{
@@ -52,6 +54,11 @@ section#apresentacao{
 @media screen and (max-width: 900px) {
     main div.container{
         width: 100%;
+        height: 26rem;
+    }
+
+    main div.img-carroussel{
+        height: 25rem;
     }
 }
 
